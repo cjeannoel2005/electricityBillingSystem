@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab40dfa-5449-4549-a38c-1d946f03c78d" name="Changes" comment="intial commit">
+    <list default="true" id="dab40dfa-5449-4549-a38c-1d946f03c78d" name="Changes" comment="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BillingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BillingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -89,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739597645550</updated>
-      <workItem from="1739597646610" duration="33444000" />
+      <workItem from="1739597646610" duration="34468000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <option name="closed" value="true" />
@@ -99,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739686525138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)">
+      <option name="closed" value="true" />
+      <created>1739766845331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739766845331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+    <MESSAGE value="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)" />
+    <option name="LAST_COMMIT_MESSAGE" value="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
