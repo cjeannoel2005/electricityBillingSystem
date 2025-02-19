@@ -43,4 +43,6 @@ public class Invoice {
     public void setRate(float rate){
         this.rate = rate;
     }
+
+    // the hashmath
 }
