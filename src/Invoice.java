@@ -1,9 +1,18 @@
+import java.util.ArrayList;
+
+
 public class Invoice {
+
+
     private String customerDetails;
     private double unitsConsumed ;
     private  float rate;
     private int totalAmount;
 
+
+    // the arraylist for the search and retrieval of the customer details
+
+     String <ArrayList> InvoiceRetrieval = new <ArrayList>(customerDetails);
     // the customerDetails getters and setters
     // getters for customerDetails.
     public String getCustomerDetails(){
@@ -44,5 +53,15 @@ public class Invoice {
         this.rate = rate;
     }
 
-    // the hashmath
+
 }
+
+// create methods to search and retrieve customer invoices by the id and names
+ public static Invoice searchProduct(String customerDetails ){
+    for( Invoice Invoice : InvoiceRetrieval  ){
+        if( Invoice.getCustomerDetails().equals(customerDetails) ){
+            return Invoice ;
+            // fix this part because the invoice should not be the return ;
+        }
+    }
+ }
