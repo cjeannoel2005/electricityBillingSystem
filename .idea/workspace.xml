@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab40dfa-5449-4549-a38c-1d946f03c78d" name="Changes" comment="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)">
+    <list default="true" id="dab40dfa-5449-4549-a38c-1d946f03c78d" name="Changes" comment="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )">
+      <change afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,46 +24,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "cjeannoel2005"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cjeannoel2005&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cjeannoel2005/electricityBillingSystem.git",
-    "accountId": "54bac8d1-2c38-4f94-a5f3-6afb7683902f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cjeannoel2005/electricityBillingSystem.git&quot;,
+    &quot;accountId&quot;: &quot;54bac8d1-2c38-4f94-a5f3-6afb7683902f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2t43hxulF70Cxj3bb3B8LwcqpAr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "Application.Unnamed.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/cedricojean-noel/IdeaProjects/Assignment 5/FizzBuzz/electricityBillProgram/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/cedricojean-noel/IdeaProjects/Assignment 5/FizzBuzz/electricityBillProgram/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -88,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739597645550</updated>
-      <workItem from="1739597646610" duration="34468000" />
+      <workItem from="1739597646610" duration="49140000" />
+      <workItem from="1740545851119" duration="6555000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <option name="closed" value="true" />
@@ -106,7 +112,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739766845331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)">
+      <option name="closed" value="true" />
+      <created>1739768465856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739768465857</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created a hashMap for the tariffRates , used interface to transport the parent and children class into the tariffRates to later link them">
+      <option name="closed" value="true" />
+      <created>1739940331587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739940331587</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )">
+      <option name="closed" value="true" />
+      <created>1740026961448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740026961448</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +145,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit" />
     <MESSAGE value="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)" />
+    <MESSAGE value="created a hashMap for the tariffRates , used interface to transport the parent and children class into the tariffRates to later link them" />
+    <MESSAGE value="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,6 +156,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Invoice.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
