@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab40dfa-5449-4549-a38c-1d946f03c78d" name="Changes" comment="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )">
-      <change afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+    <list default="true" id="dab40dfa-5449-4549-a38c-1d946f03c78d" name="Changes" comment="fiexd the retrieve and search method for the invoice but failed ( need to fix the errors )">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_23_0_2_osx_aarch64_bin_sdk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electricityBillProgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/electricityBillProgram.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/cedricojean-noel/IdeaProjects/Assignment 5/FizzBuzz/electricityBillProgram/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.Unnamed.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/cedricojean-noel/IdeaProjects/Assignment 5/FizzBuzz/electricityBillProgram/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -94,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1739597645550</updated>
       <workItem from="1739597646610" duration="49140000" />
-      <workItem from="1740545851119" duration="6555000" />
+      <workItem from="1740545851119" duration="11291000" />
+      <workItem from="1740807158238" duration="7560000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <option name="closed" value="true" />
@@ -136,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740026961448</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fiexd the retrieve and search method for the invoice but failed ( need to fix the errors )">
+      <option name="closed" value="true" />
+      <created>1740632248441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740632248441</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fiexd the retrieve and search method for the invoice but failed ( need to fix the errors )">
+      <option name="closed" value="true" />
+      <created>1740632267138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740632267138</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +168,8 @@
     <MESSAGE value="i have add the customerRecords and have to fix the exception in the main thread relating to memory (could be caused by an infinite loop)" />
     <MESSAGE value="created a hashMap for the tariffRates , used interface to transport the parent and children class into the tariffRates to later link them" />
     <MESSAGE value="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to add the retrieve and search method for the invoice but failed ( need to fix the errors: not supposed to return invoice )" />
+    <MESSAGE value="fiexd the retrieve and search method for the invoice but failed ( need to fix the errors )" />
+    <option name="LAST_COMMIT_MESSAGE" value="fiexd the retrieve and search method for the invoice but failed ( need to fix the errors )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,7 +181,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Invoice.java</url>
-          <line>12</line>
+          <line>19</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

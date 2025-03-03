@@ -5,10 +5,17 @@ public class Invoice {
 
 
     private String customerDetails;
-    private Double unitsConsumed;
+    private double unitsConsumed;
     private float rate;
     private int totalAmount;
 
+    // constructor for the invoice class
+    public Invoice(String cD, double uC, float r, int tA) {
+        this.customerDetails = cD;
+        this.unitsConsumed = uC;
+        this.rate = r;
+        this.totalAmount = tA;
+    }
 
     // the arraylist for the search and retrieval of the customer details
 
@@ -56,26 +63,26 @@ public class Invoice {
     }
 
 
-
 // create a new void method to sent error message
 
-public void displayErrorMessage(){
-    System.out.println("this is an error");
-}
-}
+    public void displayErrorMessage() {
+        System.out.println("this is an error");
+    }
 
-// create methods to search and retrieve customer invoices by the id and names
+
+    // create methods to search and retrieve customer invoices by the id and names
     public Double searchProduct(String customerDetails) {
-        for (Invoice Invoice : InvoiceRetrieval) {
+        for (Invoice Invoice : invoiceRetrieval) {
             if (Invoice.getCustomerDetails().equals(customerDetails)) {
-                return unitsConsumed;
+                return Invoice.getUnitsConsumed();
                 // fix this part because the invoice should not be the return ;
             }
-            else{
-                displayErrorMessage();
-                return null;
-            }
+
+            displayErrorMessage();
+            return null;
+// i have to fix this error tomorrow
 
         }
+        return null;
     }
 }
