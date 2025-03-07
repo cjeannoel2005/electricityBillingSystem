@@ -1,6 +1,7 @@
 # electricity billing System 
 ## this is the overview 
-this is an electric billing system coded in java and is practice on how to use github too
+
+- This is an electric billing system coded in java and is practice on how to use github too
 this is a review project to try mastering all the basic concepts like methods , inheritance , nested loops and 
 
 
