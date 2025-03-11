@@ -14,7 +14,7 @@ this is a review project to try mastering all the basic concepts like methods , 
 
 - For this porject i chose java , springboot
 - i styled the UI with with css frot he professional look.
-  
+- The data =base for this project will be SQLite 
 
 #### 3. how i managed bug and chose the interface 
 
